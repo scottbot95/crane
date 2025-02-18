@@ -40,7 +40,6 @@ in
 let
   cleanedArgs = builtins.removeAttrs origArgs [
     "installPhase"
-    "installPhaseCommand"
     "trunkExtraArgs"
     "trunkExtraBuildArgs"
     "trunkIndexPath"
